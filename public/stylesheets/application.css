@@ -19,6 +19,7 @@ a:hover             { color: #fff; background-color:#000; }
 .rating             { float: left; clear: left; font-family: verdana, arial, helvetica, sans-serif; }
 h2, h3, .speakers, .type, .description { margin-left: 150px; }
 .speakers, .type    { font-style: italic; }
+.type               { margin-bottom: 1em; }
 .num-ratings        { font-size: 90%; }
 #rated, #unrated    { border-top: 1px solid #aaaaaa; margin-bottom: 50px; }
 .stars              { width: 55px; background: url('/images/star_x_grey.gif') 0 0 repeat-x; }
