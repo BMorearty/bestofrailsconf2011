@@ -1,4 +1,5 @@
-== Welcome to Best of RailsConf 2011
+Welcome to Best of RailsConf 2011
+=================================
 
 This app shows a list of all presentations (keynotes, tutorials, and other)
 from RailsConf 2011, sorted by average rating.
