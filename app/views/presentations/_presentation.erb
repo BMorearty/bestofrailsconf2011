@@ -1,0 +1,13 @@
+<div class="presentation">
+  <% if presentation.num_ratings > 0 %>
+    <div class="rating">
+      <div class="text">Average rating</div>
+      <div class="stars"><%= content_tag :div, :style => "width: #{presentation.rating * 100.0 / 5.0}%" do end %></div>
+      <div class="num-ratings">(<%= presentation.rating %>, <%= presentation.num_ratings %> ratings)</div>
+    </div>
+  <% end %>
+  <h3><%= link_to presentation.title, presentation.url %></h3>
+  <div class="speakers"><%= presentation.speakers %></div>
+  <div class="type"><%= presentation.presentation_type %></div>
+  <div class="description"><%= sanitize presentation.description_html %></div>
+</div>

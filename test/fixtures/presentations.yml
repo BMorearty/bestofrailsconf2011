@@ -1,0 +1,22 @@
+how_to_tie_a_tie:
+  title: How to Tie a Tie
+  description_html: In this session you will learn, step by step, how to tie a tie. Regular ties only. None of that bowtie business and especially not a bolo.
+  rating: 2.23
+  num_ratings: 23
+  speakers: Some tie guy
+  presentation_type: Tutorial
+
+gettysburg_address:
+  title: The Gettysburg Address
+  description_html: <strong>Four score and seven years ago</strong>, our fathers brought forth upon this continent a new nation conceived in liberty and dedicated to the proposition that all men are created equal.
+  rating: 4.95
+  num_ratings: 82
+  speakers: Abraham Lincoln
+  presentation_type: Keynote
+
+no_ratings:
+  title: Please Don't Come to This Talk
+  description_html: I submitted this talk so my resume would look better. I don't actually want anyone to come to the talk because if you do, I'll have to prepare something. And I don't like to prepare. Please, I beg you, just go to another talk. I'm sure there are some really good ones in the same time slot.
+  num_ratings: 0
+  speakers: Boring McBoring
+  presentation_type: Tutorial

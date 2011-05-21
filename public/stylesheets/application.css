@@ -1,0 +1,22 @@
+body                { background-color: white; color: #333; margin: 50px auto; padding: 30px 50px; width: 750px; }
+body, p, ol, ul, td { font-family: georgia, times new roman, times; line-height: 150%; }
+p                   { margin-bottom: 1.5em; }
+h1, h2, h3          { font-family: verdana, arial, helvetica, sans-serif; line-height: 150%; }
+h1                  { padding: 2em 180px 2em 1em; background: url('/images/railsconf.gif') right center no-repeat;
+                      background-color: #91181c; color: white; border-radius: 20px; }
+h1, h3              { text-shadow: rgba(211,211,211,1) 1px 1px 1px; }
+h2                  { text-shadow: rgba(211,211,211,0.5) 1px 1px 1px;
+                      background-color: #91181c; color: white; padding: .4em .8em;
+                      border-radius: 6px; margin-top: 2em; }
+h3                  { margin-top: 5%; }
+a                   { color: #000; }
+a:visited           { color: #666; }
+a:hover             { color: #fff; background-color:#000; }
+#notice             { color: green; }
+
+.rating             { float: left; clear: left; font-family: verdana, arial, helvetica, sans-serif; }
+h2, h3, .speakers, .type, .description { margin-left: 150px; }
+.num-ratings        { font-size: 90%; }
+#rated, #unrated    { border-top: 1px solid #aaaaaa; margin-bottom: 50px; }
+.stars              { width: 55px; background: url('/images/star_x_grey.gif') 0 0 repeat-x; }
+.stars div          { height: 12px; background: url('/images/star_x_orange.gif') 0 0 repeat-x; }
