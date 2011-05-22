@@ -14,8 +14,9 @@ a:visited           { color: #666; }
 a:hover             { color: #fff; background-color:#000; }
 #notice             { color: green; }
 
-#needs-improvement  { float: right; width: 200px; margin-left: 30px; border: 1px solid gray;
-                      padding: 10px; border-radius: 6px; background-color: #eff; }
+#sidebar            { float: right; width: 200px; margin-left: 30px; }
+#needs-improvement  { border: 1px solid gray; padding: 10px; border-radius: 6px; background-color: #eff; }
+#last-scrape        { text-align: right; }
 .rating             { float: left; clear: left; font-family: verdana, arial, helvetica, sans-serif; }
 h2, h3, .speakers, .type, .description { margin-left: 150px; }
 .speakers, .type    { font-style: italic; }
@@ -24,3 +25,4 @@ h2, h3, .speakers, .type, .description { margin-left: 150px; }
 #rated, #unrated    { border-top: 1px solid #aaaaaa; margin-bottom: 50px; }
 .stars              { width: 55px; background: url('/images/star_x_grey.gif') 0 0 repeat-x; }
 .stars div          { height: 12px; background: url('/images/star_x_orange.gif') 0 0 repeat-x; }
+#presentations      { clear: both; }

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110521160807) do
+ActiveRecord::Schema.define(:version => 20110522020237) do
 
   create_table "presentations", :force => true do |t|
     t.string   "title",                                                          :null => false
@@ -25,5 +25,10 @@ ActiveRecord::Schema.define(:version => 20110521160807) do
   end
 
   add_index "presentations", ["rating"], :name => "index_presentations_on_rating"
+
+  create_table "scrapes", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

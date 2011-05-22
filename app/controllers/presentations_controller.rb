@@ -1,6 +1,6 @@
 class PresentationsController < ApplicationController
   respond_to :html, :xml, :json
-  helper_method :presentations
+  helper_method :presentations, :last_scrape
 
   def index
     respond_with presentations
@@ -10,5 +10,9 @@ class PresentationsController < ApplicationController
 
   def presentations
     @presentations ||= Presentation.scoped
+  end
+
+  def last_scrape
+    Scrape.last
   end
 end
