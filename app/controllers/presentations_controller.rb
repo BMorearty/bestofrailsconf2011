@@ -13,6 +13,7 @@ class PresentationsController < ApplicationController
   end
 
   def last_scrape
-    Scrape.last
+    return @last_scrape if defined?(@last_scrape)
+    @last_scrape = Scrape.last
   end
 end
