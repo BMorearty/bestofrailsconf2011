@@ -12,7 +12,7 @@
     </p>
     <% if last_scrape %>
       <p id="last-scrape">
-        Last scrape:<br/><%= last_scrape.created_at.localtime.to_s(:nice) %>
+        Last scrape:<br/><%= last_scrape.updated_at.localtime.to_s(:nice) %>
       </p>
     <% end %>
   </div>
